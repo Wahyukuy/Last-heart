@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #d50000;
+  margin-bottom: 40px;
+}
+
+.pembina {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.foto-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.foto-container img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #d50000;
+}
+
+.foto-container .label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.podium {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 40px;
+}
+
+.podium .box {
+  text-align: center;
+}
+
+.bendahara {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.bendahara .box {
+  text-align: center;
+}
