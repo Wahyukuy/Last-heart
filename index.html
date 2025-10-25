@@ -28,5 +28,20 @@
   <footer>
     <p>&copy; 2025 PMR Indonesia</p>
   </footer>
+  <script>
+  const menuItems = document.querySelectorAll("nav a");
+  menuItems.forEach(item => {
+    item.addEventListener("click", () => {
+      menuItems.forEach(i => i.classList.remove("active"));
+      item.classList.add("active");
+    });
+  });
+</script>
+
+<style>
+  .active {
+    border-bottom: 2px solid white;
+  }
+</style>
 </body>
 </html>
