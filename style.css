@@ -20,6 +20,10 @@ nav ul {
   gap: 30px;
 }
 
+nav a.active {
+  border-bottom: 2px solid white;
+}
+
 nav a {
   color: white;
   text-decoration: none;
